@@ -1,18 +1,10 @@
-  
-
 # MSSQL Server Data Sync
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
   
 
 >Hello World.!
 
-  
-
->Hereby sharing a working method to perform table syncing between 2 MS SQL database server irrespective on the editions used.
-
-  
-
-
+>Hereby sharing a working method to perform table syncing between two MS SQL database server irrespective on the editions used.
 
   
 
@@ -32,16 +24,13 @@
 
 * A 'sync' schema present at destination DB.
 
-  
-  
+ 
 
 ## Usage
-
-  
+ 
 
 1. Create a Job. [Powershell/CMD]
-
-  
+ 
 
 ```
 
@@ -92,8 +81,6 @@ dbo.Table2
 USE SourceDatabase
 
 GO
-
-  
 
 ALTER DATABASE SourceDatabase
 
