@@ -18,8 +18,9 @@
 
 ## Usage
 1. Create a Job.
->SqlBulkSync.exe CREATETEMPLATE SyncJob.hron
-
+```
+SqlBulkSync.exe CREATETEMPLATE SyncJob.hron
+```
 2. Modify  SyncJob.hron with respect to the requirements.
 ```  
 =SourceDbConnection
