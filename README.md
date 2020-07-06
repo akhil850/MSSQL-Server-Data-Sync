@@ -1,8 +1,9 @@
 
 # MSSQL Server Data Sync
 
-Hello World.!
-Hereby sharing a working method to perform table syncing between 2 MS SQL database server irrespective on the editions used.
+>Hello World.!
+
+>Hereby sharing a working method to perform table syncing between 2 MS SQL database server irrespective on the editions used.
 
 
 # Requirements
