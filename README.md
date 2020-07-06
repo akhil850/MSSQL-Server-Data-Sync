@@ -17,7 +17,9 @@
 
 
 ## Usage
-1. Create a Job.
+
+1. Create a Job. [Powershell/CMD]
+
 ```
 SqlBulkSync.exe CREATETEMPLATE SyncJob.hron
 ```
@@ -56,7 +58,7 @@ GO
 CREATE SCHEMA sync 
 GO
 ```
-5. Execute the Sync job
+5. Execute the Sync job [[Powershell/CMD]]
 ```
 SqlBulkSync.exe PROCESS OrderTablesToAzure.hron
 ```
