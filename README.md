@@ -34,6 +34,9 @@ SqlBulkSync.exe CREATETEMPLATE SyncJob.hron
 =BatchSize
     1000
 ``` 
+>Note: For local Sync Jobs;
+>Data Source=localhost;Initial Catalog=TargetDatabase;Integrated Security=true;
+
 3. Enable Change tracking at Source Database. (SSMS or T-SQL Query)
 ```
 USE SourceDatabase
