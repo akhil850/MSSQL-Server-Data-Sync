@@ -23,7 +23,8 @@
 ```
 SqlBulkSync.exe CREATETEMPLATE SyncJob.hron
 ```
-2. Modify  SyncJob.hron with respect to the requirements.
+2. Modify SyncJob.hron asper requirements.
+
 ```  
 =SourceDbConnection
     Data Source=sourceserver;Initial Catalog=SourceDatabase;User ID=userid;Password=password
