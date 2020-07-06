@@ -33,26 +33,27 @@ Hereby sharing a working method to perform table syncing between 2 MS SQL databa
     1000
 ``` 
 3. Enable Change tracking at Source Database. (SSMS or T-SQL Query)
+```
+USE SourceDatabase
+GO 
 
->USE SourceDatabase
-	GO 
-	
-> ALTER DATABASE SourceDatabase 
-> SET CHANGE_TRACKING = ON
-> (CHANGE_RETENTION = 5 DAYS, AUTO_CLEANUP = ON); 
-> GO
-
+ALTER DATABASE SourceDatabase 
+SET CHANGE_TRACKING = ON
+(CHANGE_RETENTION = 5 DAYS, AUTO_CLEANUP = ON); 
+GO
+```
 4. Create 'sync'  schema at Destination Database.
-
->   USE DestinationDatabase
->   GO
->   
->   CREATE SCHEMA 
->   sync GO
-
+```
+USE DestinationDatabase
+GO
+   
+CREATE SCHEMA sync 
+GO
+```
 5. Execute the Sync job
->SqlBulkSync.exe PROCESS OrderTablesToAzure.hron
+```
+SqlBulkSync.exe PROCESS OrderTablesToAzure.hron
+```
 
-
-# Synchronization
+# Reserved
 
