@@ -110,7 +110,7 @@ GO
 
 ```
 
-SqlBulkSync.exe PROCESS OrderTablesToAzure.hron
+SqlBulkSync.exe PROCESS SyncJob.hron
 
 ```
 
