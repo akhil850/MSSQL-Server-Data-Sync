@@ -20,17 +20,15 @@ Hereby sharing a working method to perform table syncing between 2 MS SQL databa
 >SqlBulkSync.exe CREATETEMPLATE SyncJob.hron
 
 2. Modify  SyncJob.hron with respect to the requirements.
-  
+>  
 >  =SourceDbConnection
 >     	Data Source=sourceserver;Initial Catalog=SourceDatabase;User ID=userid;Password=password
 >     =TargetDbConnection
 >     	Data Source=targetserver;Initial Catalog=DestinationDatabase;User ID=userid;Password=password
->
 >     =Tables
 >     	dbo.Table1
 >     =Tables
 >     	dbo.Table2
->
 >     =BatchSize
 >     	1000
 
