@@ -5,6 +5,7 @@
 
 >Hereby sharing a working method to perform table syncing between 2 MS SQL database server irrespective on the editions used.
 
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 # Requirements
 
