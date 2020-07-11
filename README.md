@@ -6,7 +6,7 @@
 
 >Hereby sharing a working method to perform table syncing between two MS SQL database server irrespective on the editions used.
 
->Advantages : 
+# Advantages 
 1. Any MSSQL Edtions can be used.
 2. Automation via batch script keeping two databases in SYNC.
 
