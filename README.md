@@ -6,6 +6,7 @@
 
 >Hereby sharing a working method to perform table syncing between two MS SQL database server irrespective on the editions used.
 
+>Greater Advantage : We can automate this job via a batch script keeping two databases in SYNC.
   
 
 # Requirements
